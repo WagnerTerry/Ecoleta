@@ -165,6 +165,13 @@ vh /vw > view port height-altura/width-largura, declaração dinâmica com a pá
   #page-search-results .cards img {
     height: 250px;
   }
+
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+  #page-create-point .field-group .field + .field {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 1700px) {
